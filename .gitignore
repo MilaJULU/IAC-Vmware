@@ -1,0 +1,23 @@
+# Maquinas virtuales de VirtualBox
+VMs/
+*.vdi
+*.vmdk
+*.vhd
+*.vbox
+*.vbox-prev
+
+# Logs
+*.log
+Logs/
+
+# Temporales
+*.tmp
+*.temp
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# IDE / editores
+.vscode/
+.idea/
