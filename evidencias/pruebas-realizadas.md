@@ -314,3 +314,21 @@ VMware Workstation no se encontraba instalado en el equipo utilizado para las pr
 
 Las pruebas realizadas con VirtualBox se documentan como pruebas de funcionamiento del script, pero no se presentan como pruebas ejecutadas sobre VMware Workstation.
 
+## 7. Verificación de ejecución
+
+Se intentó iniciar la máquina virtual VM_Start mediante VMware Workstation y mediante vmrun.
+
+Comando utilizado:
+
+vmrun -T ws start "VM_Start.vmx" nogui
+
+Resultado observado:
+La máquina virtual no quedó ejecutándose. La creación y configuración de la VM se completaron correctamente, pero la ejecución mediante vmrun no pudo ser verificada.
+
+Comando de verificación:
+
+vmrun -T ws list
+
+Resultado:
+
+Total running VMs: 0
